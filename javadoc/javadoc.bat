@@ -1,0 +1,1 @@
+cmd.exe /X /C ""C:\Program Files\Java\jdk-21\bin\javadoc.exe" -J-Dhttps.proxyHost=proxy.charite.de -J-Dhttps.proxyPort=8080 -J-Dhttp.proxyHost=proxy.charite.de -J-Dhttp.proxyPort=8080 -J-Dhttp.nonProxyHosts="localhost^|127.0.0.1^|.charite.de" -J-Duser.language=en -J-Duser.country=US @options @packages"
